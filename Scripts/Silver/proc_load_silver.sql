@@ -20,6 +20,7 @@ Usage Example:
 
 --Creating Stored Procedure for loading the silver layer's tables.
 
+
 CREATE OR REPLACE PROCEDURE silver.load_silver()
 LANGUAGE plpgsql
 AS $$
@@ -318,3 +319,4 @@ DECLARE
 	
 END;
 $$;
+
